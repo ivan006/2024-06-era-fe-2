@@ -58,12 +58,10 @@
 
 <script>
 import RecordOverviewDynamicDataPoint from './RecordOverviewDynamicDataPoint.vue'
-import RecordOverview from "./RecordOverview.vue";
 
 export default {
     name: 'RecordOverviewDynamic',
     components: {
-      RecordOverview,
         RecordOverviewDynamicDataPoint,
     },
     props: {

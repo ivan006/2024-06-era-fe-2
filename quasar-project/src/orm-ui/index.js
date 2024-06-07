@@ -8,7 +8,6 @@ import DBCrudCacheSet from './quick-list/DBCrudCacheSet.js';
 import DestructableExpansionPanels from './quick-list/DestructableExpansionPanels.vue';
 import FilterPlace from './quick-list/FilterPlace.vue';
 import FilterTime from './quick-list/FilterTime.vue';
-import FormattedColumn from './quick-list/FormattedColumn.vue';
 import MyGoogleMap from './quick-list/MyGoogleMap.vue';
 import QuickListsHelpers from './quick-list/QuickListsHelpers.js';
 import RecordOverview from './quick-list/RecordOverview.vue';
@@ -39,7 +38,6 @@ export {
   DestructableExpansionPanels,
   FilterPlace,
   FilterTime,
-  FormattedColumn,
   MyGoogleMap,
   QuickListsHelpers,
   RecordOverview,

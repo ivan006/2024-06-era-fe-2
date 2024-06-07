@@ -43,11 +43,10 @@
 
 <script>
 import FormattedColumn from './FormattedColumn.vue'
-import CreateEditForm from "./CreateEditForm.vue";
 
 export default {
     name: 'SuperTableTable',
-    components: {CreateEditForm, FormattedColumn },
+    components: { FormattedColumn },
 
     props: {
         items: {
@@ -84,7 +83,7 @@ export default {
     },
   data(){
     return {
-      sortBy: [{ key: this.pKey, order: 'asc' }]
+      sortBy: []
     }
   },
     computed: {
@@ -152,6 +151,9 @@ export default {
             }
         },
     },
+  mounted(){
+    this.sortBy = [{ key: this.pKey, order: 'asc' }]
+  }
 }
 </script>
 

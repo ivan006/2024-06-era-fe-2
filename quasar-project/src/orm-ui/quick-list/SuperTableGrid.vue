@@ -37,13 +37,11 @@
 <script>
 import RecordOverview from './RecordOverview.vue'
 import RecordOverviewDynamic from './RecordOverviewDynamic.vue'
-import FormattedColumn from "./FormattedColumn.vue";
 // import QuickListsHelpers from './QuickListsHelpers'
 
 export default {
     name: 'SuperTableGrid',
     components: {
-      FormattedColumn,
         RecordOverview,
         RecordOverviewDynamic,
     },

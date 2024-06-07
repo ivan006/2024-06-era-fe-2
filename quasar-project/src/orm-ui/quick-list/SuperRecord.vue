@@ -86,12 +86,10 @@ import RecordOverview from './RecordOverview.vue'
 import QuickListsHelpers from './QuickListsHelpers'
 // import LoginSession from '@/models/LoginSession'
 import RecordOverviewDynamic from './RecordOverviewDynamic.vue'
-import SuperTableList from "./SuperTableList.vue";
 
 export default {
     name: 'SuperRecord',
     components: {
-      SuperTableList,
         RecordOverviewDynamic,
         RecordOverview,
         SuperTable,

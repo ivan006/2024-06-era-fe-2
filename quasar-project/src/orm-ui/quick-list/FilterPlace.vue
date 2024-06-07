@@ -81,11 +81,10 @@
 <script>
 import SuperSelect from './SuperSelect.vue'
 import QuickListsHelpers from './QuickListsHelpers'
-import SuperTableTable from "./SuperTableTable.vue";
 
 export default {
     name: 'FilterPlace',
-    components: {SuperTableTable, SuperSelect },
+    components: {SuperSelect },
     props: {
         filterField: {
             type: Object,
